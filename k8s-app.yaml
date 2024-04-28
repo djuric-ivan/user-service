@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: user-app-container
-          image: 'javatechie4u/user-service:1.0.0-1'
+          image: ''
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 9191
